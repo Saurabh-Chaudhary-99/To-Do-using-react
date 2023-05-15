@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    /* Add this line to set the background color to light blue */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 1rem;
+    background-color: black;
+    border-radius: 10px;
+    /* Add this line to set the border radius to 10px */
+}
+
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.top {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 600px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-bottom: 1px solid lightcoral;
+}
+
+.add {
+    background-color: lightcoral;
+    color: #000;
+    padding: 1.0rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo {
+    position: relative;
+    margin-top: 1rem;
+    background-color: lightcoral;
+    color: black;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    /* Add this line to set the color to light blue */
+}
